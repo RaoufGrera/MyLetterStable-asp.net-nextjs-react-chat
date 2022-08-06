@@ -39,14 +39,14 @@ services:
     ports:
       - "127.0.0.1:5001:80"
     environment:
-      DB_CONNECTION_STRING: "host=postgresql_database;port=5432;database=TodoList;username=postgres;password=102030"
+      DB_CONNECTION_STRING: "host=postgresql_database;port=5432;database=myletter;username=postgres;password=102030"
 
   postgresql_database:
     image: postgres:latest
     environment:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=102030
-      - POSTGRES_DB=TodoList
+      - POSTGRES_DB=myletter
     ports:
       - "5433:5433"
     restart: always
