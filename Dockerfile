@@ -11,9 +11,6 @@ RUN dotnet build "MyLetterStable.csproj" -c Release -o /app/build
 FROM build AS publish
 RUN dotnet publish "MyLetterStable.csproj" -c Release -o /app/publish
 
-FROM node AS node-builder
-WORKDIR /node
-COPY ["MyLetterStable/dist", "node/"]
 
 
 FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS final
