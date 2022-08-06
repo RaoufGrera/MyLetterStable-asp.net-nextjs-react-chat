@@ -125,45 +125,7 @@ const Showindex = () => {
 
             </div>
             <div id="acf-block-faq-block_5ffd9a927f7ab" className="acf-block-faq c-pt-9 c-pb-9 bg-gray decor--primary-color position-relative overflow-hidden">
-                <div className="container position-relative z-index-1">
-                    <div className="row justify-content-center">
-                        <div className="col-lg-11 col-xl-10">
 
-
-                            <h2 className="text-center my-4 fs-1"></h2>
-
-
-
-                            <div className="row c-mt-6">
-
-
-                                <div className="col-md-6 c-mt-8 c-mt-lg-6">
-                                    <div className="card bg-white rounded-0 p-3 my-2 ">
-
-                                        <p className='fw-bold mb-2'>{t('p8')}</p>
-                                        <div className="entry-content c-mt-3"><span className="first-element-fix"></span>
-                                            <p>{t('p9')}</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div className="col-md-6 c-mt-8 c-mt-lg-6">
-                                    <div className="card bg-white rounded-0 p-3 my-2 ">
-
-                                        <p className='fw-bold mb-2'>{t('p10')}</p>
-                                        <div className="entry-content c-mt-3"><span className="first-element-fix"></span>
-                                            <p>{t('p11')}                                        </p>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                            </div>
-
-
-                        </div>
-                    </div>
-                </div>
 
                 <div className='p-3 pt-3 mt-5  bg-letter '>
 
