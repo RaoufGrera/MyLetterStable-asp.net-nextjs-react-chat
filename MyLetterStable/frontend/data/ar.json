@@ -1,0 +1,47 @@
+{
+    "name": "صدفة",
+    "short_name": "صدفة",
+    "lang": "ar",
+    "dir": "rtl",
+    "description": "صدفة لأي رومانسي، يبحث عن الحب والزواج بروح الثقافة الإسلامية والعربية. من خلال تزويد المسلمين والعرب بأحدث التقنيات العصرية في التوافق بين شخصين عبر الانترنت، تجمع صدفة بين الناس من كل أنحاء العالم وتخلق مساحة ممتعة وأمنة بوسائل حديثة للدردشة والمراسلة الشات بغية الزواج العادي أو زواج المسيار مع ملايين المشتركين. نفتح أمامك فرص أكبر للتعارف والتواصل لإيجاد الشريك المناسب والحب الأمثل. الفرصة بين يديك لتكتب قصة عشق وغرام تُتوج بالإرتباط الرومانسي. لقاء فارس الأحلام وتوأم الروح وأصدقاء وشباب وبنات تبدأ من هنا مع صدفة. نتبع في صدفة حصريا المعايير الأخلاقية التي تتماشى مع القواعد الإسلامية للخطوبة والزواج.",
+    "start_url": "/login",
+    "display": "browser",
+    "orientation": "landscape",
+    "theme_color": "#FE5884",
+    "background_color": "#FFFFFF",
+    "prefer_related_applications": true,
+    "icons": [
+        {
+            "src": "/dist/meta/app-icon.png?h=09a7d9f167",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/dist/meta/app-icon-large.png?h=cd29d852c9",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "/dist/meta/opengraph.png?h=76787765d8",
+            "sizes": "1200x630",
+            "type": "image/png"
+        }
+    ],
+    "related_applications": [
+        {
+            "platform": "play",
+            "url": "https://play.google.com/store/apps/details?id=com.soudfa",
+            "id": "com.soudfa"
+        },
+        {
+            "platform": "itunes",
+            "url": "https://apps.apple.com/app/soudfa/id1009160172",
+            "id": "com.soudfa.service"
+        }
+    ],
+    "gcm_sender_id": "103953800507"
+}

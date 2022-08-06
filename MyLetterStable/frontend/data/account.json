@@ -1,0 +1,233 @@
+{
+    "account_fields": {
+        "gender": {
+            "type": "option",
+            "label": "Gender",
+            "optional": false,
+            "filters": {},
+            "rules": {},
+            "error_messages": {},
+            "options": {
+                "male": "Man",
+                "female": "Woman"
+            }
+        },
+        "name": {
+            "type": "string",
+            "label": "Name",
+            "optional": false,
+            "filters": {
+                "trim": [],
+                "consecutive_spaces": []
+            },
+            "rules": {
+                "max_length": [
+                    15
+                ],
+                "min_length": [
+                    2
+                ]
+            },
+            "error_messages": {}
+        },
+        "email": {
+            "type": "string",
+            "label": "Email",
+            "optional": false,
+            "filters": {
+                "trim": [],
+                "strtolower": []
+            },
+            "rules": {
+                "max_length": [
+                    50
+                ],
+                "email_syntax": []
+            },
+            "error_messages": {}
+        },
+        "password": {
+            "type": "string",
+            "label": "Password",
+            "optional": false,
+            "filters": {
+                "trim": []
+            },
+            "rules": {
+                "min_length": [
+                    6
+                ],
+                "max_length": [
+                    50
+                ]
+            },
+            "error_messages": {}
+        },
+        "home": {
+            "type": "area",
+            "label": "Living in",
+            "optional": false,
+            "filters": {},
+            "rules": {},
+            "error_messages": {}
+        },
+        "origin": {
+            "type": "area",
+            "label": "Originally from",
+            "optional": false,
+            "filters": {},
+            "rules": {},
+            "error_messages": {}
+        }
+    },
+    "description_fields": {
+        "flag_moderate": {
+            "type": "boolean",
+            "label": "Flag Moderate",
+            "optional": false,
+            "filters": {},
+            "rules": {},
+            "error_messages": {}
+        },
+        "self": {
+            "type": "string",
+            "label": "About me",
+            "optional": true,
+            "filters": {
+                "trim": []
+            },
+            "rules": {
+                "min_length": [
+                    15
+                ],
+                "max_length": [
+                    1000
+                ]
+            },
+            "error_messages": {}
+        },
+        "other": {
+            "type": "string",
+            "label": "I'm looking for",
+            "optional": true,
+            "filters": {
+                "trim": []
+            },
+            "rules": {
+                "min_length": [
+                    15
+                ],
+                "max_length": [
+                    1000
+                ]
+            },
+            "error_messages": {}
+        }
+    },
+    "support_report_fields": {
+        "reason": {
+            "type": "option",
+            "label": "Report",
+            "optional": false,
+            "filters": {},
+            "rules": {},
+            "error_messages": {},
+            "options": {
+                "photo": "Inappropriate photos",
+                "fake_user": "Fake user",
+                "harassment": "Harassment",
+                "scam": "Scam",
+                "underage": "Underage",
+                "other": "Other"
+            }
+        }
+    },
+    "account_close_fields": {
+        "reason": {
+            "type": "option",
+            "label": "Reason",
+            "optional": false,
+            "filters": {},
+            "rules": {},
+            "error_messages": {},
+            "options": {
+                "success": "I’ve found love on Soudfa",
+                "no_need": "I met someone outside Soudfa",
+                "no_matches": "I didn’t get enough matches",
+                "wrong_types": "My type wasn’t on Soudfa",
+                "excessive_attention": "Unwanted users contacted me",
+                "competitor": "I prefer other marriage apps",
+                "expensive": "It’s too expensive",
+                "other": "It’s something else"
+            }
+        },
+        "message": {
+            "type": "string",
+            "label": "Your own words",
+            "optional": true,
+            "filters": {
+                "trim": []
+            },
+            "rules": {
+                "min_length": [
+                    10
+                ],
+                "max_length": [
+                    1000
+                ]
+            },
+            "error_messages": {}
+        }
+    },
+    "subscription_cancel_fields": {
+        "reason": {
+            "type": "option",
+            "label": "Reason",
+            "optional": true,
+            "filters": {},
+            "rules": {},
+            "error_messages": {},
+            "options": {
+                "success": "I found someone",
+                "expensive": "Too expensive",
+                "competitor": "I want to try a different app",
+                "unsatisfied": "I don’t like the benefits",
+                "no_success": "I didn’t get enough out of it",
+                "other": "Other"
+            }
+        },
+        "message": {
+            "type": "string",
+            "label": "Your own words",
+            "optional": true,
+            "filters": {
+                "trim": []
+            },
+            "rules": {
+                "min_length": [
+                    10
+                ],
+                "max_length": [
+                    1000
+                ]
+            },
+            "error_messages": {}
+        }
+    },
+    "portrait": {
+        "required": false,
+        "max_size_px": 1200
+    },
+    "images": {
+        "max_count": 9,
+        "max_size_px": 1200
+    },
+    "location": {
+        "distance_min_km": 10,
+        "distance_max_km": 10000
+    },
+    "boost": {
+        "duration": "PT3H",
+        "duration_hour": 3
+    }
+}

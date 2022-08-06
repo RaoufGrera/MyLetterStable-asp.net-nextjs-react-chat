@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002Fcomplete","\u002Fedit","\u002Fsearch","\u002Fbox"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()

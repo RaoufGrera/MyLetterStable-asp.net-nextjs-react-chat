@@ -1,0 +1,227 @@
+{
+    "profile_fields": {
+        "about": "About me",
+        "age": {
+            "label": "Age",
+            "type": "option",
+            "options": {
+                "18": "years 18",
+                "19": "years 19",
+                "20": "years 20",
+                "21": "years 21",
+                "22": "years 22",
+                "23": "years 23",
+                "24": "years 24",
+                "25": "years 25",
+                "26": "years 26",
+                "27": "years 27",
+                "28": "years 28",
+                "29": "years 29",
+                "30": "years 30",
+                "31": "years 31",
+                "32": "years 32",
+                "33": "years 33",
+                "34": "years 34",
+                "35": "years 35",
+                "36": "years 36",
+                "37": "years 37",
+                "38": "years 38",
+                "39": "years 39",
+                "40": "years 40",
+                "41": "years 41",
+                "42": "years 42",
+                "43": "years 43",
+                "44": "years 44",
+                "45": "years 45",
+                "46": "years 46",
+                "47": "years 47",
+                "48": "years 48",
+                "49": "years 49",
+                "50": "years 50",
+                "51": "years 51",
+                "52": "years 52",
+                "53": "years 53",
+                "54": "years 54",
+                "55": "years 55",
+                "56": "years 56",
+                "57": "years 57",
+                "58": "years 58",
+                "59": "years 59",
+                "60": "years 60",
+                "61": "years 61",
+                "62": "years 62",
+                "63": "years 63",
+                "64": "years 64",
+                "65": "years 65",
+                "66": "years 66",
+                "67": "years 67",
+                "68": "years 68",
+                "69": "years 69",
+                "70": "years 70",
+                "71": "years 71",
+                "72": "years 72",
+                "73": "years 73",
+                "74": "years 74",
+                "75": "years 75",
+                "76": "years 76",
+                "77": "years 77",
+                "78": "years 78",
+                "79": "years 79",
+                "80": "years 80",
+                "81": "years 81",
+                "82": "years 82",
+                "83": "years 83",
+                "84": "years 84",
+                "85": "years 85",
+                "86": "years 86",
+                "87": "years 87",
+                "88": "years 88",
+                "89": "years 89"
+            }
+        },
+        "gender": {
+            "label": "Gender",
+            "type": "option",
+            "options": {
+                "female": "Female",
+                "male": "Male"
+            }
+        },
+        "country": {
+            "label": "Country",
+            "type": "option",
+            "options": {
+                "ly": "Libya",
+                "eg": "Egypt",
+                "sa": "Saudi Arabia",
+                "ae": "Emirates",
+                "bh": "Bahrain",
+                "dz": "Algeria",
+                "ir": "Iraq",
+                "jo": "Jordan",
+                "kw": "Kuwait",
+                "lb": "Lebanon",
+                "ma": "Morocco",
+                "om": "Oman",
+                "ps": "Palestinian",
+                "qa": "Qatar",
+                "sd": "Sudan",
+                "sy": "Syria",
+                "tn": "Tunisia",
+                "ye": "Yemen"
+            }
+        },
+        "sector": {
+            "label": "Sector",
+            "type": "option",
+            "options": {
+                "employee": "Employee",
+                "freelancer": "Freelancer",
+                "student": "Student",
+                "unemployed": "Unemployed"
+            }
+        },
+        "education": {
+            "label": "Education",
+            "type": "option",
+            "options": {
+                "bachelors_degree": "Bachelor's",
+                "doctorate": "PhD",
+                "high_school": "High school",
+                "masters_degree": "Master’s"
+            }
+        },
+        "salary": {
+            "label": "Salary",
+            "type": "option",
+            "options": {
+                "1000": "$1000 Monthly",
+                "200": "$200 Monthly",
+                "2000": "$2000 Monthly",
+                "500": "$500 Monthly",
+                "5000": "+$5000 Monthly",
+                "700": "$700 Monthly"
+            }
+        },
+        "relationship": {
+            "label": "Relationship",
+            "type": "option",
+            "options": {
+                "divorced": "Divorced",
+                "married": "Married",
+                "single": "Single",
+                "widowed": "Widowed"
+            }
+        },
+        "zodiac": null,
+        "personality": {
+            "label": "Personality",
+            "type": "option",
+            "options": {
+                "INFJ": "Advocate - INFJ",
+                "INFP": "Mediator - INFP",
+                "INTJ": "Architect - INTJ",
+                "INTP": "Logician - INTP",
+                "ENFJ": "Protagonist - ENFJ",
+                "ENFP": "Campaigner - ENFP",
+                "ENTJ": "Commander - ENTJ",
+                "ENTP": "Debater - ENTP",
+                "ESFJ": "Consul - ESFJ",
+                "ESFP": "Entertainer - ESFP",
+                "ESTJ": "Executive - ESTJ",
+                "ESTP": "Entrepreneur - ESTP",
+                "ISFJ": "Defender - ISFJ",
+                "ISFP": "Adventurer - ISFP",
+                "ISTJ": "Logistician - ISTJ",
+                "ISTP": "Virtuoso - ISTP"
+            }
+        },
+        "hobbies": {
+            "label": "Hobbies",
+            "type": "options",
+            "options": {
+                "Anime": "Anime",
+                "Art": "Art",
+                "Business": "Business",
+                "Cars": "Cars",
+                "Cooking": "Cooking",
+                "Education": "Education",
+                "Family": "Family",
+                "Fashion": "Fashion",
+                "Gaming": "Gaming",
+                "History": "History",
+                "Music": "Music",
+                "Photography": "Photography",
+                "Politics": "Politics",
+                "Reading": "Reading",
+                "Relationships": "Relationships",
+                "Science": "Science",
+                "Shopping": "Shopping",
+                "Sports": "Sports",
+                "Technology": "Technology",
+                "Writing": "Writing"
+            }
+        }
+    },
+    "profile_categories": {
+        "basic": {
+            "label": "Basics",
+            "fields": [
+                "gender",
+                "country",
+                "age"
+            ]
+        },
+        "social_status": {
+            "label": "Essentials",
+            "fields": [
+                "relationship",
+                "sector",
+                "personality",
+                "education",
+                "salary",
+                "hobbies"
+            ]
+        }
+    }
+}

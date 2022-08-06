@@ -1,0 +1,377 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <UserSecretsId>2b63f6a3-6c60-428c-ad66-5504ab8321f4</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <SpaRoot>dist\</SpaRoot>
+    <IsPackable>false</IsPackable>
+    <DefaultItemExcludes>$(DefaultItemExcludes);$(SpaRoot)node_modules\**</DefaultItemExcludes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\_default-female.svg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="StaticFiles\Images\f1055527520284661115.jpeg" />
+    <None Remove="StaticFiles\Images\f1055527520284661173.jpeg" />
+    <None Remove="StaticFiles\Images\f42129170321463091020.jpeg" />
+    <None Remove="StaticFiles\Images\f42129170321463091024.jpeg" />
+    <None Remove="StaticFiles\Images\f42129170321463091041.jpeg" />
+    <None Remove="StaticFiles\Images\f42129170321463091065.jpeg" />
+    <None Remove="StaticFiles\Images\f42129170321463091090.jpeg" />
+    <None Remove="StaticFiles\Images\f42129170321463091142.jpeg" />
+    <None Remove="StaticFiles\Images\f42129170321463091203.jpeg" />
+    <None Remove="StaticFiles\Images\f42129170321463091303.jpeg" />
+    <None Remove="StaticFiles\Images\f42129170321463091310.jpeg" />
+    <None Remove="StaticFiles\Images\f42129170321463091372.jpeg" />
+    <None Remove="StaticFiles\Images\f42129170321463091379.jpeg" />
+    <None Remove="StaticFiles\Images\f4212917032146309140.jpeg" />
+    <None Remove="StaticFiles\Images\f42129170321463091446.jpeg" />
+    <None Remove="StaticFiles\Images\f42129170321463091469.jpeg" />
+    <None Remove="StaticFiles\Images\f42129170321463091492.jpeg" />
+    <None Remove="StaticFiles\Images\f42129170321463091498.jpeg" />
+    <None Remove="StaticFiles\Images\f4212917032146309152.jpeg" />
+    <None Remove="StaticFiles\Images\f42129170321463091524.jpeg" />
+    <None Remove="StaticFiles\Images\f42129170321463091538.jpeg" />
+    <None Remove="StaticFiles\Images\f42129170321463091560.jpeg" />
+    <None Remove="StaticFiles\Images\f42129170321463091581.jpeg" />
+    <None Remove="StaticFiles\Images\f42129170321463091605.jpeg" />
+    <None Remove="StaticFiles\Images\f42129170321463091656.jpeg" />
+    <None Remove="StaticFiles\Images\f42129170321463091676.jpeg" />
+    <None Remove="StaticFiles\Images\f42129170321463091688.jpeg" />
+    <None Remove="StaticFiles\Images\f42129170321463091733.jpeg" />
+    <None Remove="StaticFiles\Images\f42129170321463091743.jpeg" />
+    <None Remove="StaticFiles\Images\f42129170321463091774.jpeg" />
+    <None Remove="StaticFiles\Images\f42129170321463091830.jpeg" />
+    <None Remove="StaticFiles\Images\f4212917032146309189.jpeg" />
+    <None Remove="StaticFiles\Images\f42129170321463091912.jpeg" />
+    <None Remove="StaticFiles\Images\f42129170321463091921.jpeg" />
+    <None Remove="StaticFiles\Images\f42129170321463091956.jpeg" />
+    <None Remove="StaticFiles\Images\f42129170321463091958.jpeg" />
+    <None Remove="StaticFiles\Images\f42129170321463091965.jpeg" />
+    <None Remove="StaticFiles\Images\f42129170321463091970.jpeg" />
+    <None Remove="StaticFiles\Images\f4212917032146309200.jpeg" />
+    <None Remove="StaticFiles\Images\f4212917032146309205.jpeg" />
+    <None Remove="StaticFiles\Images\f4212917032146309235.jpeg" />
+    <None Remove="StaticFiles\Images\f4212917032146309313.jpeg" />
+    <None Remove="StaticFiles\Images\f4212917032146309322.jpeg" />
+    <None Remove="StaticFiles\Images\f4212917032146309346.jpeg" />
+    <None Remove="StaticFiles\Images\f4212917032146309422.jpeg" />
+    <None Remove="StaticFiles\Images\f4212917032146309485.jpeg" />
+    <None Remove="StaticFiles\Images\f4212917032146309518.jpeg" />
+    <None Remove="StaticFiles\Images\f4212917032146309525.jpeg" />
+    <None Remove="StaticFiles\Images\f4212917032146309538.jpeg" />
+    <None Remove="StaticFiles\Images\f4212917032146309701.jpeg" />
+    <None Remove="StaticFiles\Images\f4212917032146309712.jpeg" />
+    <None Remove="StaticFiles\Images\f4212917032146309824.jpeg" />
+    <None Remove="StaticFiles\Images\f4212917032146309829.jpeg" />
+    <None Remove="StaticFiles\Images\f4212917032146309850.jpeg" />
+    <None Remove="StaticFiles\Images\f4212917032146309851.jpeg" />
+    <None Remove="StaticFiles\Images\f4212917032146309898.jpeg" />
+    <None Remove="StaticFiles\Images\f4212917032146309986.jpeg" />
+    <None Remove="StaticFiles\Images\f4212917032146309988.jpeg" />
+    <None Remove="StaticFiles\Images\f4212917032146309990.jpeg" />
+    <None Remove="StaticFiles\Images\f4212917032146309994.jpeg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="StaticFiles\Images\f1055527520284661115.jpeg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\Images\f1055527520284661173.jpeg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\Images\f42129170321463091020.jpeg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\Images\f42129170321463091024.jpeg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\Images\f42129170321463091041.jpeg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\Images\f42129170321463091065.jpeg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\Images\f42129170321463091090.jpeg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\Images\f42129170321463091142.jpeg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\Images\f42129170321463091203.jpeg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\Images\f42129170321463091303.jpeg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\Images\f42129170321463091310.jpeg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\Images\f42129170321463091372.jpeg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\Images\f42129170321463091379.jpeg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\Images\f4212917032146309140.jpeg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\Images\f42129170321463091446.jpeg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\Images\f42129170321463091469.jpeg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\Images\f42129170321463091492.jpeg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\Images\f42129170321463091498.jpeg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\Images\f4212917032146309152.jpeg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\Images\f42129170321463091524.jpeg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\Images\f42129170321463091538.jpeg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\Images\f42129170321463091560.jpeg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\Images\f42129170321463091581.jpeg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\Images\f42129170321463091605.jpeg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\Images\f42129170321463091656.jpeg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\Images\f42129170321463091676.jpeg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\Images\f42129170321463091688.jpeg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\Images\f42129170321463091733.jpeg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\Images\f42129170321463091743.jpeg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\Images\f42129170321463091774.jpeg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\Images\f42129170321463091830.jpeg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\Images\f4212917032146309189.jpeg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\Images\f42129170321463091912.jpeg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\Images\f42129170321463091921.jpeg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\Images\f42129170321463091956.jpeg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\Images\f42129170321463091958.jpeg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\Images\f42129170321463091965.jpeg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\Images\f42129170321463091970.jpeg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\Images\f4212917032146309200.jpeg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\Images\f4212917032146309205.jpeg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\Images\f4212917032146309235.jpeg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\Images\f4212917032146309313.jpeg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\Images\f4212917032146309322.jpeg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\Images\f4212917032146309346.jpeg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\Images\f4212917032146309422.jpeg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\Images\f4212917032146309485.jpeg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\Images\f4212917032146309518.jpeg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\Images\f4212917032146309525.jpeg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\Images\f4212917032146309538.jpeg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\Images\f4212917032146309701.jpeg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\Images\f4212917032146309712.jpeg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\Images\f4212917032146309824.jpeg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\Images\f4212917032146309829.jpeg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\Images\f4212917032146309850.jpeg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\Images\f4212917032146309851.jpeg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\Images\f4212917032146309898.jpeg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\Images\f4212917032146309986.jpeg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\Images\f4212917032146309988.jpeg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\Images\f4212917032146309990.jpeg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\Images\f4212917032146309994.jpeg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="FirebaseAdmin" Version="2.3.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Facebook" Version="6.0.5" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.5" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.Core" Version="1.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.SpaServices.Extensions" Version="6.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.18.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.15.1" />
+    <PackageReference Include="MimeTypesMap" Version="1.0.8" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Quartz" Version="3.4.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.1" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.18.0" />
+    <PackageReference Include="Microsoft.AspNetCore.JsonPatch" Version="6.0.5" />
+         <PackageReference Include="Microsoft.Extensions.Caching.Abstractions" Version="6.0.0" />
+         <PackageReference Include="System.Net.Http.Json" Version="6.0.0" />
+  
+  </ItemGroup>
+  <Target Name="CustomTargetName" AfterTargets="build">
+    <Message Text="First occurrence" Importance="high" />
+  </Target>
+  <ItemGroup>
+    <ProjectReference Include="..\SystemData\SystemData.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\StaticFiles\Images\1.jpeg" />
+    <None Include="wwwroot\StaticFiles\Images\1091053993383767823771609.jpeg" />
+    <None Include="wwwroot\StaticFiles\Images\2.jpeg" />
+    <None Include="wwwroot\StaticFiles\Images\3.jpeg" />
+    <None Include="wwwroot\StaticFiles\Images\4.jpeg" />
+    <None Include="wwwroot\StaticFiles\Images\5.jpeg" />
+    <None Include="wwwroot\StaticFiles\Images\6.jpeg" />
+    <None Include="wwwroot\StaticFiles\Images\7.jpeg" />
+    <None Include="wwwroot\StaticFiles\Images\8.jpeg" />
+    <None Include="wwwroot\StaticFiles\Images\default-male.svg" />
+    <None Include="wwwroot\StaticFiles\Images\noti.jpeg" />
+    <None Include="wwwroot\StaticFiles\Images\Stamp\deafult.png" />
+    <None Include="wwwroot\StaticFiles\Images\Stamp\flower-daisy.png" />
+    <None Include="wwwroot\StaticFiles\Images\Stamp\lamp.png" />
+    <None Include="wwwroot\StaticFiles\Images\Stamp\savanna.png" />
+    <None Include="wwwroot\StaticFiles\Images\Stamp\travel-plane.png" />
+    <None Include="wwwroot\StaticFiles\Images\_default-female.svg" />
+    <None Include="wwwroot\StaticFiles\Images\_default-male.svg" />
+    <None Include="wwwroot\StaticFiles\Images\_transparent.png" />
+    <None Include="wwwroot\_default-female.svg" />
+  </ItemGroup>
+
+
+</Project>

@@ -1,0 +1,70 @@
+﻿version: '3.4'
+
+
+services:
+
+
+  #nginx:
+  #  image: nginx:1.15-alpine
+  #  restart: unless-stopped
+  #  volumes:
+  #    - ./data/nginx:/etc/nginx/conf.d
+  #    - ./data/certbot/conf:/etc/letsencrypt
+  #    - ./data/certbot/www:/var/www/certbot
+  #  ports:
+  #    - "80:80"
+  #    - "443:443"
+  #  command: "/bin/sh -c 'while :; do sleep 6h & wait $${!}; nginx -s reload; done & nginx -g \"daemon off;\"'"
+  #certbot:
+  #  image: certbot/certbot
+  #  restart: unless-stopped
+  #  volumes:
+  #    - ./data/certbot/conf:/etc/letsencrypt
+  #    - ./data/certbot/www:/var/www/certbot
+  #  entrypoint: "/bin/sh -c 'trap exit TERM; while :; do certbot renew; sleep 12h & wait $${!}; done;'"
+
+  next:
+    image: dist:latest
+    ports:
+      - "127.0.0.1:3001:3000"
+
+  api:
+    image: api:latest
+    container_name: api
+    depends_on:
+      - "postgresql_database"
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "127.0.0.1:5001:80"
+    environment:
+      DB_CONNECTION_STRING: "host=postgresql_database;port=5432;database=TodoList;username=postgres;password=102030"
+
+  postgresql_database:
+    image: postgres:latest
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=102030
+      - POSTGRES_DB=TodoList
+    ports:
+      - "5433:5433"
+    restart: always
+    volumes:
+      - database-data:/var/lib/postgresql/data/
+
+  pgadmin:
+    image: dpage/pgadmin4
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=pgadmin4@pgadmin.org
+      - PGADMIN_DEFAULT_PASSWORD=102030
+    ports:
+      - "5050:5050"
+    restart: always
+    volumes:
+      - pgadmin:/root/.pgamdin
+
+
+volumes:
+  database-data:
+  pgadmin:
