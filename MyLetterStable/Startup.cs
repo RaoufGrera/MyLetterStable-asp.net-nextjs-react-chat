@@ -108,10 +108,11 @@ namespace MyLetterStable
                     .AllowAnyMethod()
                     .AllowCredentials()
                     .WithOrigins("https://myletter.app"));
-            app.UseCors("AllowAll");
+            app.UseCors("AllowAll"); 
 
 
- 
+
+
             app.UseHttpsRedirection();
 
             app.UseRouting();
