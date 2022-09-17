@@ -39,7 +39,7 @@ services:
     ports:
       - "127.0.0.1:5001:80"
     environment:
-      DB_CONNECTION_STRING: "host=postgresql_database;port=5432;database=myletter;username=postgres;password=102030"
+      DB_CONNECTION_STRING: "host=postgresql_database;port=5433;database=myletter;username=postgres;password=102030"
 
   postgresql_database:
     image: postgres:latest
