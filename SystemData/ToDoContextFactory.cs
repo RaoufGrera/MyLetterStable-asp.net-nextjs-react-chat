@@ -12,7 +12,7 @@ namespace SystemData
         {
             var builder = new DbContextOptionsBuilder<SystemContext>();
             //builder.UseNpgsql("Host=localhost;Port=5432;Username=postgres;Password=102030;Database=TodoList");
-             builder.UseNpgsql("Host=localhost;Port=5433;Username=postgres;Password=102030;Database=myletter");
+             builder.UseNpgsql("Host=postgresql_database;Port=5432;Username=postgres;Password=102030;Database=myletter");
 
             return new SystemContext(builder.Options);
         }
