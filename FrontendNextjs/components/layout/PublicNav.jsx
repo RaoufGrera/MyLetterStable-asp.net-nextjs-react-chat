@@ -73,8 +73,6 @@ function PublicNav({ show }) {
 							</a>
 
 							<ul className={isListOpen ? "dropdown-content " : "dropdown-content hide"} >
-
-
 								<li>
 									<Link href="/en">
 										<span>English</span>
@@ -85,7 +83,6 @@ function PublicNav({ show }) {
 										<span className='w-100'>العربية</span>
 									</Link>
 								</li>
-
 							</ul>
 						</li>
 
